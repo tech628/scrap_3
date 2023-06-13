@@ -1,0 +1,271 @@
+body {
+    background-color: rgb(66, 228, 21);
+}
+
+#barrel1 {
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+#barrel1_1 {
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+}
+
+#scrap_gain {
+    border: 1px solid lightgreen;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(5, 89, 5);
+    top: 0;
+    margin-left: 400px;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#barrel1clicked {
+    width: 350px;
+    height: 350px;
+}
+
+#magnet-image {
+    width: 50px;
+    height: 50px;
+    margin-top: 7px;
+}
+
+#magnets {
+    border: 1px solid lightgreen;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(5, 89, 5);
+    top: 0;
+    margin-left: 650px;
+    margin-top: 40px;
+    position: absolute;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#level-bar {
+    border: 3px solid black;
+    width: 350px;
+    height: 20px;
+    background-color: rgb(5, 89, 5);
+    position: absolute;
+    top: 0;
+    margin-left: 400px;
+    margin-top: 120px;
+    color: white;
+    font: bold;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 2.5px;
+}
+
+#leveling-bar {
+    width: 1%;
+    background-color: rgb(7, 78, 140);
+}
+
+#leveling_barrel1 {
+    width: 250px;
+    height: 250px;
+    margin-left: 620px;
+    margin-top: 210px;
+    position: absolute;
+    top: 0;
+}
+
+.collection-prestige-upgrades {
+    border-right: 1px solid black;
+    width: 200px;
+    background-color: rgb(255, 0, 0);
+    height: 753px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#collection-of-barrels {
+    width: 200px;
+    height: 188,25px;
+    position: static;
+}
+
+#prestige-container {
+    width: 200px;
+    height: 188,25px;
+    position: sticky;
+    cursor: pointer;
+    display: flex;
+}
+
+#prestige {
+    position: static;
+}
+
+#barrel-upgrades-container {
+    width: 200px;
+    height: 188,25px;
+    position: sticky;
+}
+
+#about-sections {
+    width: 200px;
+    height: 188,25px;
+    position: static;
+}
+
+.golden-scrap {
+    width: 900px;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-top: 50px;
+    background-color: grey;
+    margin-left: 300px;
+    visibility: hidden;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.open-golden-scrap {
+    visibility: visible;
+}
+
+#x-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 75px;
+    height: 55px;
+    background-color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 15px;
+}
+
+#prestige-golden-scrap {
+    width: 70px;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 25px;
+    border: solid rgb(65, 59, 59);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#golden-scrap-text {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    width: 600px;
+    height: 230px;
+    background-color: rgb(30, 25, 25);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin-left: 150px;
+    margin-top: 170px;
+}
+
+#golden-scrap-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+}
+
+#paragraph-golden-scrap-text {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-left: 290px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+audio {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 300px;
+    margin-right: 100px;
+    background-color: rgba(62, 57, 57, 0.847);
+}
+
+#prestige-button {
+    width: 400px;
+    height: 90px;
+    background-color: rgb(15, 59, 234);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin-left: 230px;
+    margin-bottom: 150px;
+    cursor: pointer;
+}
+
+#btn-save {
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+#prestige-scrap-stars {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    margin-top: 25px;
+    margin-right: 200px;
+    border: solid rgb(65, 59, 59);
+    cursor: pointer;
+}
+
+#prestige-stars {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border: solid rgb(65, 59, 59);
+    visibility: hidden;
+}
+
+.open-prestige-stars {
+    visibility: visible;
+}

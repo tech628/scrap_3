@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Scrap 3</title>
+</head>
+<body onload="getItem()">
+    <div id="barrel_1" onclick="scrapgain()"><img src="images/barrel1.webp" id="barrel1"></div>
+    <p id="scrap_gain"><img src="images/barrel1.webp" id="barrel1_1"> 0 </p>
+    <div id="magnets"><img src="images/magnets.webp" id="magnet-image"> 0 </div>
+    <div id="level-bar"> Level 1 
+        <div id="leveling-bar"></div>
+    </div>
+    <div id="leveling-barrel"><img src="images/barrel1.webp" id="leveling_barrel1" onclick="levelgain()"></div>
+    <div class="collection-prestige-upgrades">
+        <div id="collection"><img src="images/barrel-collections.jpg" id="collection-of-barrels"></div>
+        <div id="prestige"><img src="images/golden-barrel-content.png" id="prestige-container" onclick="prestige_containertoggle()"> 
+            <div class="golden-scrap" id="golden-scrap"> Prestige
+                <span id="x-close" onclick="golden_scrapclicked()"> X </span>
+                <div id="golden-scrap-prestige"><img src="images/golden-scrap.webp" id="prestige-golden-scrap" onclick="golden_scrap_toggle()"></div>
+                <div id="stars-scrap-prestige"><img src="images/stars-icon.webp" id="prestige-scrap-stars">
+                <div id="stars-prestige"><img src="images/stars-icon.webp" id="prestige-stars" onclick="stars_toggle()"></div>
+                </div>
+                <div id="golden-scrap-text"><img src="images/golden-scrap.webp" id="golden-scrap-img">Golden Scrap
+                <div id="paragraph-golden-scrap-text"> 0 </div>
+                </div>
+                <div id="prestige-button" onclick="golden_scrapGain()">Prestige</div>
+            </div>
+        </div>
+        <div id="barrel-upgrades"><img src="images/barrel-upgrades1.jpg" id="barrel-upgrades-container"></div>
+        <div id="about"><img src="images/about.png" id="about-sections"></div>
+    </div>
+    <button onclick="setItem()" id="btn-save"> SAVE </button>
+    <audio controls>
+        <source src="media/_We_Are_the_Danger_A_Minecraft_Original_Music_V.mp3">
+    </audio>
+</body>
+<script src="index.js"></script>
+</html>
