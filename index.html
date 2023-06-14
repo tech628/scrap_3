@@ -20,15 +20,27 @@
                 <span id="x-close" onclick="golden_scrapclicked()"> X </span>
                 <div id="golden-scrap-prestige"><img src="images/golden-scrap.webp" id="prestige-golden-scrap" onclick="golden_scrap_toggle()"></div>
                 <div id="stars-scrap-prestige"><img src="images/stars-icon.webp" id="prestige-scrap-stars">
-                <div id="stars-prestige"><img src="images/stars-icon.webp" id="prestige-stars" onclick="stars_toggle()"></div>
                 </div>
                 <div id="golden-scrap-text"><img src="images/golden-scrap.webp" id="golden-scrap-img">Golden Scrap
                 <div id="paragraph-golden-scrap-text"> 0 </div>
                 </div>
                 <div id="prestige-button" onclick="golden_scrapGain()">Prestige</div>
             </div>
+            <div id="stars-prestige"><img src="images/stars-icon.webp" class="prestige-stars" id="prestige-stars" onclick="stars_toggle()">
+                <div id="stars-text"></div>
+            </div>
         </div>
-        <div id="barrel-upgrades"><img src="images/barrel-upgrades1.jpg" id="barrel-upgrades-container"></div>
+        <div id="barrel-upgrades"><img src="images/barrel-upgrades1.jpg" id="barrel-upgrades-container" onclick="open_barrelUpgrades()">
+            <div class="upgrades-barrel" id="upgrades-barrel">
+            <span id="x-close" onclick="close_barrelUpgrades()"> X </span>
+            <div id="upgrades-text"> Upgrades </div>
+            <div id="first-barrel-up"><img src="images/barrel1.webp" id="first-barrel-up1">
+            <div id="first-row-up-text"> Upgrade 1 </div>
+            <div id="second-row-up-text">Get a 2x boost(additive) to your scrap gain</div>
+            <div id="first-up-btn" onclick="first_upgrade()"> Buy upgrade 1 </div>
+            </div>
+            </div>
+        </div>
         <div id="about"><img src="images/about.png" id="about-sections"></div>
     </div>
     <button onclick="setItem()" id="btn-save"> SAVE </button>
